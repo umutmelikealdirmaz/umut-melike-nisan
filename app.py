@@ -48,7 +48,7 @@ st.markdown(
     }
     [data-testid="stHeader"] {background:transparent;}
     #MainMenu,footer {visibility:hidden;}
-    .block-container {max-width:760px;padding:2.1rem 1.1rem 3.5rem;}
+    .block-container {width:100%;max-width:760px;margin-left:auto;margin-right:auto;padding:2.1rem 1.1rem 3.5rem;}
     .top-label {
       text-align:center;color:#978875;text-transform:uppercase;
       letter-spacing:.28em;font-size:.61rem;font-weight:600;margin:.25rem 0 1.4rem;
@@ -143,7 +143,7 @@ st.markdown(
     [data-testid="stFileUploader"] {background:#fbf8f1;border:1px dashed #cdbda7;border-radius:2px;padding:.45rem;}
     [data-testid="stFileUploaderDropzone"] {background:transparent;border:0;}
     .stTextInput label,.stFileUploader label,.stCheckbox label {color:#5c5349!important;font-size:.8rem!important;font-weight:500!important;}
-    [data-testid="stTextInput"] input {border-radius:2px;border:1px solid #ded3c4;background:#fffdf8;}
+    [data-testid="stTextInput"] input {border-radius:2px;border:1px solid #ded3c4;background:#fffdf8;color:#39352f!important;}     [data-testid="stTextInput"] input::placeholder {color:#8d8274!important;opacity:1;}     [data-testid="stFileUploader"] section {color:#39352f!important;}     [data-testid="stAlert"] {color:#39352f!important;}     [data-testid="stAlert"] p,[data-testid="stAlert"] [data-testid="stMarkdownContainer"] {color:#39352f!important;}     [data-testid="stAlert"] a {color:#754e49!important;}
     .stButton>button,[data-testid="stFormSubmitButton"] button {
       background:#79524d;color:#fffaf2;border:1px solid #79524d;border-radius:2px;
       min-height:3.05rem;letter-spacing:.09em;text-transform:uppercase;font-size:.7rem;font-weight:600;
